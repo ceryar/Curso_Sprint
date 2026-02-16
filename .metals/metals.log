@@ -724,3 +724,114 @@ feb 16, 2026 4:18:31 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint not
 INFORMACIÓN: Unsupported notification method: $/setTrace
 feb 16, 2026 4:22:38 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
+feb 16, 2026 4:30:13 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1818
+2026.02.16 16:31:28 INFO  compiling tiket (1 java source)
+2026.02.16 16:31:28 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:31:28 INFO  time: compiled tiket in 0.62s
+2026.02.16 16:33:10 INFO  compiling tiket (1 java source)
+2026.02.16 16:33:10 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:33:10 INFO  time: compiled tiket in 0.65s
+2026.02.16 16:34:07 INFO  compiling tiket (1 java source)
+2026.02.16 16:34:07 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:34:07 INFO  time: compiled tiket in 0.62s
+2026.02.16 16:34:39 INFO  compiling tiket (1 java source)
+2026.02.16 16:34:39 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:34:39 INFO  time: compiled tiket in 0.62s
+2026.02.16 16:44:42 INFO  Created report: Optional[file:///home/ceryar/Documentos/Prueba_Spring/tiket/src/main/java/com/pruebaTiket/tiket/controller/WelcomeController.java]
+2026.02.16 16:44:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/ceryar/Documentos/Prueba_Spring/tiket/.metals/.reports/metals-full/2026-02-16/r_empty-definition_(tiket)_16-44-42-278.md")
+2026.02.16 16:44:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/ceryar/Documentos/Prueba_Spring/tiket/.metals/.reports/metals-full/2026-02-16/r_empty-definition_(tiket)_16-44-42-278.md")
+2026.02.16 16:44:47 INFO  compiling tiket (1 java source)
+2026.02.16 16:44:47 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:44:47 INFO  time: compiled tiket in 0.69s
+2026.02.16 16:45:04 INFO  compiling tiket (1 java source)
+2026.02.16 16:45:04 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:45:04 INFO  time: compiled tiket in 0.6s
+2026.02.16 16:45:37 INFO  compiling tiket (1 java source)
+2026.02.16 16:45:37 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/home/ceryar/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.02.16 16:45:37 INFO  time: compiled tiket in 0.65s
+feb 16, 2026 5:00:49 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/ceryar/Documentos/Prueba_Spring/tiket/src/main/java/com/pruebaTiket/tiket/controller/WelcomeController.java?%7B%22path%22%3A%22%2Fhome%2Fceryar%2FDocumentos%2FPrueba_Spring%2Ftiket%2Fsrc%2Fmain%2Fjava%2Fcom%2FpruebaTiket%2Ftiket%2Fcontroller%2FWelcomeController.java%22%2C%22ref%22%3A%221c98105144a9ee9a9e93669e5bfed3724a623dd1%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+feb 16, 2026 5:08:26 P.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+ADVERTENCIA: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/ceryar/Documentos/Prueba_Spring/tiket/src/main/java/com/pruebaTiket/tiket/controller/WelcomeController.java?%7B%22path%22%3A%22%2Fhome%2Fceryar%2FDocumentos%2FPrueba_Spring%2Ftiket%2Fsrc%2Fmain%2Fjava%2Fcom%2FpruebaTiket%2Ftiket%2Fcontroller%2FWelcomeController.java%22%2C%22ref%22%3A%221c98105144a9ee9a9e93669e5bfed3724a623dd1%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:778)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:775)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
