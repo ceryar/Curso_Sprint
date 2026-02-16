@@ -1,5 +1,7 @@
 package com.pruebaTiket.tiket.controller;
 
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +16,11 @@ public class WelcomeController {
     public String wolcome( Model model){
 
         model.addAttribute("name","Walcome to Prueba1");//pasando parametros a la vista.
-        model.addAttribute("user", new User("Cesar", "cesar@gmail.com"));
+        User user1 = new User("Cesar castro", "cesar@gmail.com");
+        User user2 = new User("Antonio Hurtado", "antonio@gmail.com");
+        User user3 = new User("Felipe Lopez", "felipe@gmail.com");
+        List<User>  users = List.of(user1, user2, user3); // se crea una nueva lista de usuarios 
+        model.addAttribute("users", users);// se pasa lista de usuarios con la variable "users"
 
         return "welcome";
 

@@ -11,17 +11,26 @@
         Bienvenido a [[${name}]]! <!-- Otra forma -->
      </br>
      </h1>
-     <div th:object="${user}">
-            <p>
-                Usuario:
-            </p>
+        <ul>
+            <li th:each="user, loop : ${users}" th:object="${user}"> <!-- se almacena el listado de usuarios en la variable user -->
+                <!--   para itirar los elementos de la lista "users" th:each="user : ${users}" th:object="${user}"
+                   los guarda en la variable "user"
+                  -->
+                <p>
+                    Usuario n [[${loop.index + 1}]] : <!-- se crea la bariable loop  para ver el recorrido de la lista-->
+                </p>
 
-            <p>
-                Nombre: [[*{name}]] <!-- dato de objeto -->
-            </p>
-            <p>
-                Email : [[*{email}]]
-            </p>
-        </div>
+                <p>
+                    Nombre: [[*{name}]] <!-- dato de objeto -->
+                </p>
+                <p>
+                    Email : [[*{email}]]
+                </p>
+
+            
+            </li>
+
+        </ul>
+            
 </body>
 </html>
