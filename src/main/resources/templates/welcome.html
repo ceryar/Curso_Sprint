@@ -25,11 +25,12 @@
                 </p>
                 <p>
                     Email : [[*{email}]]
-                </p>
-
-            
+                </p>        
             </li>
+            <li th:if="${users.size()==0}"> <!-- condicionales -->
+                No hay usuarios disponibles
 
+            </li>
         </ul>
             
 </body>

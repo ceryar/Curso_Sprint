@@ -19,7 +19,8 @@ public class WelcomeController {
         User user1 = new User("Cesar castro", "cesar@gmail.com");
         User user2 = new User("Antonio Hurtado", "antonio@gmail.com");
         User user3 = new User("Felipe Lopez", "felipe@gmail.com");
-        List<User>  users = List.of(user1, user2, user3); // se crea una nueva lista de usuarios 
+        //List<User>  users = List.of(user1, user2, user3); // se crea una nueva lista de usuarios 
+        List<User>  users = List.of(); //lista sin usuarios
         model.addAttribute("users", users);// se pasa lista de usuarios con la variable "users"
 
         return "welcome";
