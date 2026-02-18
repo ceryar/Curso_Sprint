@@ -1,26 +1,24 @@
-package com.pruebaTiket.tiket.model;
+package com.pruebaTiket.tiket.dto;
 
-public class User {
-
-    private Long id;
+public class UserDto {
+    /*  se definen los elemensos que se van amanejar entre los controladores
+        para mejor seguridad.
+     */
+  
     private String name;
     private String email;
 
-    public User(){
+    public UserDto(){
         
     }
 
     
-    public User(Long id, String name, String email) {
-        this.id = id;
+    public UserDto(String name, String email) {
+    
         this.name = name;
         this.email = email;
-
     }
 
-    public Long getId(){
-        return id;
-    }
     public String getName() {
         return name;
     }
@@ -28,10 +26,6 @@ public class User {
 
     public String getEmail() {
         return email;
-    }
-
-    public Long setId(){
-        return id;
     }
 
     public void setName(String name) {
@@ -42,8 +36,5 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-
-
-
-    
 }
+

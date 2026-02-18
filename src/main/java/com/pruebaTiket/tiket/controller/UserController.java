@@ -4,10 +4,13 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
+
+import com.pruebaTiket.tiket.dto.UserDto;
 import com.pruebaTiket.tiket.model.User;
 
 //import ch.qos.logback.core.model.Model;
@@ -60,13 +63,11 @@ public class UserController {
 
     @PostMapping("/users")
     @ResponseBody // retorna el cuerpo del html, no una vista 
-    public String store(
-        String name,
-        String email // recibe los elemnetos del formulario
-
+    public UserDto store(//retorna un objeto de UserDto con los atrivutos y metos definidos
+        @ModelAttribute UserDto userDto //captura los elementos de userDto
     ){
-        return name + " - "+ email; // retorna los valores pasados por el formulario
-
+        return userDto; // retorna los valores del formulario administrados por la clase UserDto
+        
     }
 
  
