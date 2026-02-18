@@ -9,9 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 
 import com.pruebaTiket.tiket.dto.UserDto;
 import com.pruebaTiket.tiket.model.User;
+
+import jakarta.validation.Valid;
 
 //import ch.qos.logback.core.model.Model;
 
@@ -57,18 +60,26 @@ public class UserController {
     }
 
     @GetMapping("/users/create") // vista formulario crear user 
-    public String create(){
+    public String create(Model model){ //pasar modeo a la vista 
+        //<!-- contexto de userDTO -->
+        model.addAttribute("userDto", new UserDto());
         return "users/create";
     }
 
     @PostMapping("/users")
-    @ResponseBody // retorna el cuerpo del html, no una vista 
-    public UserDto store(//retorna un objeto de UserDto con los atrivutos y metos definidos
-        @ModelAttribute UserDto userDto //captura los elementos de userDto
+    
+    public String store(//retorna un objeto de UserDto con los atrivutos y metos definidos
+       @Valid @ModelAttribute UserDto userDto, //captura los elementos de userDto y validacion
+       BindingResult result,// objeto contine el resultado de la validacion.
+       Model model
     ){
-        return userDto; // retorna los valores del formulario administrados por la clase UserDto
-        
-    }
+        if(result.hasErrors()){
+            //<!-- contexto de userDTO -->
+            model.addAttribute("userDto", userDto); // sepasa el userDto que existe
+            return "users/create";
+        }
 
- 
+       return "redirect:/users";// redireciona a la ruta /create
+    }
 }
+

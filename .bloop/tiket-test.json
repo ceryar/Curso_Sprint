@@ -45,7 +45,6 @@
             "/home/ceryar/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.5.10/spring-boot-starter-tomcat-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.50/tomcat-embed-core-10.1.50.jar",
-            "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.50/tomcat-embed-el-10.1.50.jar",
             "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-web/6.2.15/spring-web-6.2.15.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-beans/6.2.15/spring-beans-6.2.15.jar",
@@ -55,6 +54,12 @@
             "/home/ceryar/.m2/repository/org/springframework/spring-aop/6.2.15/spring-aop-6.2.15.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-expression/6.2.15/spring-expression-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.5.10/spring-boot-starter-validation-3.5.10.jar",
+            "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.50/tomcat-embed-el-10.1.50.jar",
+            "/home/ceryar/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.3.Final/hibernate-validator-8.0.3.Final.jar",
+            "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar",
+            "/home/ceryar/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar",
+            "/home/ceryar/.m2/repository/com/fasterxml/classmate/1.7.3/classmate-1.7.3.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-devtools/3.5.10/spring-boot-devtools-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot/3.5.10/spring-boot-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar",
@@ -319,6 +324,22 @@
                             "name": "ognl",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hibernate.validator",
+                    "name": "hibernate-validator",
+                    "version": "8.0.3.Final",
+                    "artifacts": [
+                        {
+                            "name": "hibernate-validator",
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.3.Final/hibernate-validator-8.0.3.Final.jar"
+                        },
+                        {
+                            "name": "hibernate-validator",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.3.Final/hibernate-validator-8.0.3.Final-sources.jar"
                         }
                     ]
                 },
@@ -1171,6 +1192,22 @@
                     ]
                 },
                 {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-validation",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-validation",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.5.10/spring-boot-starter-validation-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-validation",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.5.10/spring-boot-starter-validation-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "ch.qos.logback",
                     "name": "logback-classic",
                     "version": "1.5.25",
@@ -1235,6 +1272,22 @@
                     ]
                 },
                 {
+                    "organization": "org.jboss.logging",
+                    "name": "jboss-logging",
+                    "version": "3.6.1.Final",
+                    "artifacts": [
+                        {
+                            "name": "jboss-logging",
+                            "path": "/home/ceryar/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar"
+                        },
+                        {
+                            "name": "jboss-logging",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.springframework.boot",
                     "name": "spring-boot-test",
                     "version": "3.5.10",
@@ -1279,6 +1332,38 @@
                             "name": "groovy-extensions",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/nz/net/ultraq/groovy/groovy-extensions/2.3.3/groovy-extensions-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.validation",
+                    "name": "jakarta.validation-api",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.validation-api",
+                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml",
+                    "name": "classmate",
+                    "version": "1.7.3",
+                    "artifacts": [
+                        {
+                            "name": "classmate",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/classmate/1.7.3/classmate-1.7.3.jar"
+                        },
+                        {
+                            "name": "classmate",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/classmate/1.7.3/classmate-1.7.3-sources.jar"
                         }
                     ]
                 },
