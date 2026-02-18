@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+      layout:decorate="~{layouts/app}">
+      <!-- incluir platilla-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Usuario</title>
+</head>
+<body>
+
+    <main layout:fragment="content"> <!-- publica contenido desde el template -->
+
+        <form class="card" action="/users" method="post">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">
+                        Nombre
+                    </label>
+                    <input type="text" name="name">
+                </div>
+                 <div class="mb-3">
+                    <label class="form-label">
+                        Email
+                    </label>
+                    <input type="email" name="email">
+                </div>
+                <button class="btn btn-primary">
+                    Crear usuario
+                </button>
+            </div>
+        </form>
+        
+    </main>
+</body>
+</html>
+    

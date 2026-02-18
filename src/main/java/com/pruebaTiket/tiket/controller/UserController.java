@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
 import com.pruebaTiket.tiket.model.User;
 
@@ -48,6 +50,22 @@ public class UserController {
     ){
         model.addAttribute("usersId", id); //  paso de variable a a la vista
         return "users/show";
+
+    }
+
+    @GetMapping("/users/create") // vista formulario crear user 
+    public String create(){
+        return "users/create";
+    }
+
+    @PostMapping("/users")
+    @ResponseBody // retorna el cuerpo del html, no una vista 
+    public String store(
+        String name,
+        String email // recibe los elemnetos del formulario
+
+    ){
+        return name + " - "+ email; // retorna los valores pasados por el formulario
 
     }
 
