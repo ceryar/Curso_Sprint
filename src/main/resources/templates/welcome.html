@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+      layout:decorate="~{layouts/app}">
+      <!-- incluir platilla-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <!-- <h1 th:text="'Hola Mundo ' + ${name}"></h1> -->
-     <h1>
-        Bienvenido a [[${name}]]! <!-- Otra forma -->
-     </br>
-     </h1>
-        <ul>
-            <li th:each="user, loop : ${users}" th:object="${user}"> <!-- se almacena el listado de usuarios en la variable user -->
-                <!--   para itirar los elementos de la lista "users" th:each="user : ${users}" th:object="${user}"
-                   los guarda en la variable "user"
-                  -->
-                <p>
-                    Usuario n [[${loop.index + 1}]] : <!-- se crea la bariable loop  para ver el recorrido de la lista-->
-                </p>
+    
+    <!-- <h1 th:text="'Hola Mundo1 ' + ${name}"></h1> -->
 
-                <p>
-                    Nombre: [[*{name}]] <!-- dato de objeto -->
-                </p>
-                <p>
-                    Email : [[*{email}]]
-                </p>        
-            </li>
-            <li th:if="${users.size()==0}"> <!-- condicionales -->
-                No hay usuarios disponibles
+    <main layout:fragment="content"> <!-- publica contenido desde el template -->
+        
 
-            </li>
-        </ul>
-            
+        <h1>
+            Bienvenidos a [[${name}]]! <!-- Otra forma -->
+        </br>
+        </h1>
+            <ul>
+                <li th:each="user, loop : ${users}" th:object="${user}"> <!-- se almacena el listado de usuarios en la variable user -->
+                    <!--   para itirar los elementos de la lista "users" th:each="user : ${users}" th:object="${user}"
+                    los guarda en la variable "user"
+                    -->
+                    <p>
+                        Usuario n [[${loop.index + 1}]] : <!-- se crea la bariable loop  para ver el recorrido de la lista-->
+                    </p>
+
+                    <p>
+                        Nombre: [[*{name}]] <!-- dato de objeto -->
+                    </p>
+                    <p>
+                        Email : [[*{email}]]
+                    </p>        
+                </li>
+                <li th:if="${users.size()==0}"> <!-- condicionales -->
+                    No hay usuarios disponibles
+                </li>
+            </ul>
+    </main>       
 </body>
 </html>
