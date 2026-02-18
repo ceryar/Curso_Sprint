@@ -23,6 +23,25 @@
             "/home/ceryar/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar",
             "/home/ceryar/.m2/repository/org/yaml/snakeyaml/2.4/snakeyaml-2.4.jar",
             "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.jar",
+            "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.5.10/spring-boot-starter-data-jpa-3.5.10.jar",
+            "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.5.10/spring-boot-starter-jdbc-3.5.10.jar",
+            "/home/ceryar/.m2/repository/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-jdbc/6.2.15/spring-jdbc-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/hibernate/orm/hibernate-core/6.6.41.Final/hibernate-core-6.6.41.Final.jar",
+            "/home/ceryar/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar",
+            "/home/ceryar/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar",
+            "/home/ceryar/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar",
+            "/home/ceryar/.m2/repository/com/fasterxml/classmate/1.7.3/classmate-1.7.3.jar",
+            "/home/ceryar/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar",
+            "/home/ceryar/.m2/repository/org/springframework/data/spring-data-jpa/3.5.8/spring-data-jpa-3.5.8.jar",
+            "/home/ceryar/.m2/repository/org/springframework/data/spring-data-commons/3.5.8/spring-data-commons-3.5.8.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-orm/6.2.15/spring-orm-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-aop/6.2.15/spring-aop-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-tx/6.2.15/spring-tx-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-beans/6.2.15/spring-beans-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/springframework/spring-aspects/6.2.15/spring-aspects-6.2.15.jar",
+            "/home/ceryar/.m2/repository/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.jar",
             "/home/ceryar/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.4.0/thymeleaf-layout-dialect-3.4.0.jar",
             "/home/ceryar/.m2/repository/org/apache/groovy/groovy/4.0.29/groovy-4.0.29.jar",
             "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE.jar",
@@ -44,19 +63,14 @@
             "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.50/tomcat-embed-core-10.1.50.jar",
             "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-web/6.2.15/spring-web-6.2.15.jar",
-            "/home/ceryar/.m2/repository/org/springframework/spring-beans/6.2.15/spring-beans-6.2.15.jar",
             "/home/ceryar/.m2/repository/io/micrometer/micrometer-observation/1.15.8/micrometer-observation-1.15.8.jar",
             "/home/ceryar/.m2/repository/io/micrometer/micrometer-commons/1.15.8/micrometer-commons-1.15.8.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-webmvc/6.2.15/spring-webmvc-6.2.15.jar",
-            "/home/ceryar/.m2/repository/org/springframework/spring-aop/6.2.15/spring-aop-6.2.15.jar",
-            "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-expression/6.2.15/spring-expression-6.2.15.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.5.10/spring-boot-starter-validation-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.50/tomcat-embed-el-10.1.50.jar",
             "/home/ceryar/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.3.Final/hibernate-validator-8.0.3.Final.jar",
             "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar",
-            "/home/ceryar/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar",
-            "/home/ceryar/.m2/repository/com/fasterxml/classmate/1.7.3/classmate-1.7.3.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot/3.5.10/spring-boot-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/springframework/spring-core/6.2.15/spring-core-6.2.15.jar",
@@ -152,22 +166,6 @@
         "resolution": {
             "modules": [
                 {
-                    "organization": "org.projectlombok",
-                    "name": "lombok",
-                    "version": "1.18.42",
-                    "artifacts": [
-                        {
-                            "name": "lombok",
-                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar"
-                        },
-                        {
-                            "name": "lombok",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "net.bytebuddy",
                     "name": "byte-buddy",
                     "version": "1.17.8",
@@ -180,6 +178,22 @@
                             "name": "byte-buddy",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hibernate.orm",
+                    "name": "hibernate-core",
+                    "version": "6.6.41.Final",
+                    "artifacts": [
+                        {
+                            "name": "hibernate-core",
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/orm/hibernate-core/6.6.41.Final/hibernate-core-6.6.41.Final.jar"
+                        },
+                        {
+                            "name": "hibernate-core",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/orm/hibernate-core/6.6.41.Final/hibernate-core-6.6.41.Final-sources.jar"
                         }
                     ]
                 },
@@ -212,6 +226,822 @@
                             "name": "spring-boot",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot/3.5.10/spring-boot-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ognl",
+                    "name": "ognl",
+                    "version": "3.3.4",
+                    "artifacts": [
+                        {
+                            "name": "ognl",
+                            "path": "/home/ceryar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar"
+                        },
+                        {
+                            "name": "ognl",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.19.4",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.4/jackson-datatype-jdk8-2.19.4.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.4/jackson-datatype-jdk8-2.19.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.12.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "/home/ceryar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-junit-jupiter",
+                    "version": "5.17.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-junit-jupiter/5.17.0/mockito-junit-jupiter-5.17.0.jar"
+                        },
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-junit-jupiter/5.17.0/mockito-junit-jupiter-5.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.13.0",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "/home/ceryar/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-jcl",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-jcl",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jcl/6.2.15/spring-jcl-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-jcl",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jcl/6.2.15/spring-jcl-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.thymeleaf",
+                    "name": "thymeleaf-spring6",
+                    "version": "3.1.3.RELEASE",
+                    "artifacts": [
+                        {
+                            "name": "thymeleaf-spring6",
+                            "path": "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.jar"
+                        },
+                        {
+                            "name": "thymeleaf-spring6",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-test",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-test",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-test/6.2.15/spring-test-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-test",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-test/6.2.15/spring-test-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.data",
+                    "name": "spring-data-commons",
+                    "version": "3.5.8",
+                    "artifacts": [
+                        {
+                            "name": "spring-data-commons",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/data/spring-data-commons/3.5.8/spring-data-commons-3.5.8.jar"
+                        },
+                        {
+                            "name": "spring-data-commons",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/data/spring-data-commons/3.5.8/spring-data-commons-3.5.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy-agent",
+                    "version": "1.17.8",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy-agent",
+                            "path": "/home/ceryar/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar"
+                        },
+                        {
+                            "name": "byte-buddy-agent",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-thymeleaf",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-thymeleaf",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/3.5.10/spring-boot-starter-thymeleaf-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-thymeleaf",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/3.5.10/spring-boot-starter-thymeleaf-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vaadin.external.google",
+                    "name": "android-json",
+                    "version": "0.0.20131108.vaadin1",
+                    "artifacts": [
+                        {
+                            "name": "android-json",
+                            "path": "/home/ceryar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"
+                        },
+                        {
+                            "name": "android-json",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.17",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/ceryar/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.12.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.2/junit-jupiter-engine-5.12.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.2/junit-jupiter-engine-5.12.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.19.4",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-json",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-json",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.5.10/spring-boot-starter-json-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-json",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.5.10/spring-boot-starter-json-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.19.4",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.data",
+                    "name": "spring-data-jpa",
+                    "version": "3.5.8",
+                    "artifacts": [
+                        {
+                            "name": "spring-data-jpa",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/data/spring-data-jpa/3.5.8/spring-data-jpa-3.5.8.jar"
+                        },
+                        {
+                            "name": "spring-data-jpa",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/data/spring-data-jpa/3.5.8/spring-data-jpa-3.5.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "5.12.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.2/junit-jupiter-5.12.2.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.2/junit-jupiter-5.12.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-tx",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-tx",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-tx/6.2.15/spring-tx-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-tx",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-tx/6.2.15/spring-tx-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.tomcat.embed",
+                    "name": "tomcat-embed-websocket",
+                    "version": "10.1.50",
+                    "artifacts": [
+                        {
+                            "name": "tomcat-embed-websocket",
+                            "path": "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50.jar"
+                        },
+                        {
+                            "name": "tomcat-embed-websocket",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-jdbc",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-jdbc",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jdbc/6.2.15/spring-jdbc-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-jdbc",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jdbc/6.2.15/spring-jdbc-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.unbescape",
+                    "name": "unbescape",
+                    "version": "1.1.6.RELEASE",
+                    "artifacts": [
+                        {
+                            "name": "unbescape",
+                            "path": "/home/ceryar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar"
+                        },
+                        {
+                            "name": "unbescape",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-orm",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-orm",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-orm/6.2.15/spring-orm-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-orm",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-orm/6.2.15/spring-orm-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "nz.net.ultraq.thymeleaf",
+                    "name": "thymeleaf-layout-dialect",
+                    "version": "3.4.0",
+                    "artifacts": [
+                        {
+                            "name": "thymeleaf-layout-dialect",
+                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.4.0/thymeleaf-layout-dialect-3.4.0.jar"
+                        },
+                        {
+                            "name": "thymeleaf-layout-dialect",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.4.0/thymeleaf-layout-dialect-3.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-core",
+                    "version": "5.17.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-core",
+                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-core/5.17.0/mockito-core-5.17.0.jar"
+                        },
+                        {
+                            "name": "mockito-core",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-core/5.17.0/mockito-core-5.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-autoconfigure",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.12.2",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.5.25",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/ceryar/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-jdbc",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-jdbc",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.5.10/spring-boot-starter-jdbc-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-jdbc",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.5.10/spring-boot-starter-jdbc-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter",
+                    "version": "3.5.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter/3.5.10/spring-boot-starter-3.5.10.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter/3.5.10/spring-boot-starter-3.5.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "accessors-smart",
+                    "version": "2.5.2",
+                    "artifacts": [
+                        {
+                            "name": "accessors-smart",
+                            "path": "/home/ceryar/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar"
+                        },
+                        {
+                            "name": "accessors-smart",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "9.7.1",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "/home/ceryar/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.awaitility",
+                    "name": "awaitility",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "awaitility",
+                            "path": "/home/ceryar/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar"
+                        },
+                        {
+                            "name": "awaitility",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.19.4",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.angus",
+                    "name": "angus-activation",
+                    "version": "2.0.3",
+                    "artifacts": [
+                        {
+                            "name": "angus-activation",
+                            "path": "/home/ceryar/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar"
+                        },
+                        {
+                            "name": "angus-activation",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jaxb",
+                    "name": "txw2",
+                    "version": "4.0.6",
+                    "artifacts": [
+                        {
+                            "name": "txw2",
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar"
+                        },
+                        {
+                            "name": "txw2",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.smallrye",
+                    "name": "jandex",
+                    "version": "3.2.0",
+                    "artifacts": [
+                        {
+                            "name": "jandex",
+                            "path": "/home/ceryar/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0.jar"
+                        },
+                        {
+                            "name": "jandex",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-webmvc",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-webmvc",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-webmvc/6.2.15/spring-webmvc-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-webmvc",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-webmvc/6.2.15/spring-webmvc-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jaxb",
+                    "name": "jaxb-runtime",
+                    "version": "4.0.6",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-runtime",
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar"
+                        },
+                        {
+                            "name": "jaxb-runtime",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.javassist",
+                    "name": "javassist",
+                    "version": "3.29.0-GA",
+                    "artifacts": [
+                        {
+                            "name": "javassist",
+                            "path": "/home/ceryar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar"
+                        },
+                        {
+                            "name": "javassist",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context",
+                    "version": "6.2.15",
+                    "artifacts": [
+                        {
+                            "name": "spring-context",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "nz.net.ultraq.groovy",
+                    "name": "groovy-extensions",
+                    "version": "2.3.3",
+                    "artifacts": [
+                        {
+                            "name": "groovy-extensions",
+                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/groovy/groovy-extensions/2.3.3/groovy-extensions-2.3.3.jar"
+                        },
+                        {
+                            "name": "groovy-extensions",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/groovy/groovy-extensions/2.3.3/groovy-extensions-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.validation",
+                    "name": "jakarta.validation-api",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.validation-api",
+                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+                        },
+                        {
+                            "name": "jakarta.validation-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "json-smart",
+                    "version": "2.5.2",
+                    "artifacts": [
+                        {
+                            "name": "json-smart",
+                            "path": "/home/ceryar/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar"
+                        },
+                        {
+                            "name": "json-smart",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.transaction",
+                    "name": "jakarta.transaction-api",
+                    "version": "2.0.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.transaction-api",
+                            "path": "/home/ceryar/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-parameter-names",
+                    "version": "2.19.4",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.projectlombok",
+                    "name": "lombok",
+                    "version": "1.18.42",
+                    "artifacts": [
+                        {
+                            "name": "lombok",
+                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar"
+                        },
+                        {
+                            "name": "lombok",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "6.3.3",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "/home/ceryar/.m2/repository/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/com/zaxxer/HikariCP/6.3.3/HikariCP-6.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.inject",
+                    "name": "jakarta.inject-api",
+                    "version": "2.0.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject-api",
+                            "path": "/home/ceryar/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"
+                        },
+                        {
+                            "name": "jakarta.inject-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1-sources.jar"
                         }
                     ]
                 },
@@ -280,22 +1110,6 @@
                     ]
                 },
                 {
-                    "organization": "ognl",
-                    "name": "ognl",
-                    "version": "3.3.4",
-                    "artifacts": [
-                        {
-                            "name": "ognl",
-                            "path": "/home/ceryar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar"
-                        },
-                        {
-                            "name": "ognl",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.hibernate.validator",
                     "name": "hibernate-validator",
                     "version": "8.0.3.Final",
@@ -312,54 +1126,6 @@
                     ]
                 },
                 {
-                    "organization": "com.fasterxml.jackson.datatype",
-                    "name": "jackson-datatype-jdk8",
-                    "version": "2.19.4",
-                    "artifacts": [
-                        {
-                            "name": "jackson-datatype-jdk8",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.4/jackson-datatype-jdk8-2.19.4.jar"
-                        },
-                        {
-                            "name": "jackson-datatype-jdk8",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.19.4/jackson-datatype-jdk8-2.19.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.junit.platform",
-                    "name": "junit-platform-commons",
-                    "version": "1.12.2",
-                    "artifacts": [
-                        {
-                            "name": "junit-platform-commons",
-                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar"
-                        },
-                        {
-                            "name": "junit-platform-commons",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.opentest4j",
-                    "name": "opentest4j",
-                    "version": "1.3.0",
-                    "artifacts": [
-                        {
-                            "name": "opentest4j",
-                            "path": "/home/ceryar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"
-                        },
-                        {
-                            "name": "opentest4j",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "jakarta.xml.bind",
                     "name": "jakarta.xml.bind-api",
                     "version": "4.0.4",
@@ -372,22 +1138,6 @@
                             "name": "jakarta.xml.bind-api",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.mockito",
-                    "name": "mockito-junit-jupiter",
-                    "version": "5.17.0",
-                    "artifacts": [
-                        {
-                            "name": "mockito-junit-jupiter",
-                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-junit-jupiter/5.17.0/mockito-junit-jupiter-5.17.0.jar"
-                        },
-                        {
-                            "name": "mockito-junit-jupiter",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-junit-jupiter/5.17.0/mockito-junit-jupiter-5.17.0-sources.jar"
                         }
                     ]
                 },
@@ -440,38 +1190,6 @@
                     ]
                 },
                 {
-                    "organization": "org.springframework",
-                    "name": "spring-jcl",
-                    "version": "6.2.15",
-                    "artifacts": [
-                        {
-                            "name": "spring-jcl",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jcl/6.2.15/spring-jcl-6.2.15.jar"
-                        },
-                        {
-                            "name": "spring-jcl",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-jcl/6.2.15/spring-jcl-6.2.15-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.thymeleaf",
-                    "name": "thymeleaf-spring6",
-                    "version": "3.1.3.RELEASE",
-                    "artifacts": [
-                        {
-                            "name": "thymeleaf-spring6",
-                            "path": "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.jar"
-                        },
-                        {
-                            "name": "thymeleaf-spring6",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "jakarta.annotation",
                     "name": "jakarta.annotation-api",
                     "version": "2.1.1",
@@ -484,22 +1202,6 @@
                             "name": "jakarta.annotation-api",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.springframework",
-                    "name": "spring-test",
-                    "version": "6.2.15",
-                    "artifacts": [
-                        {
-                            "name": "spring-test",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-test/6.2.15/spring-test-6.2.15.jar"
-                        },
-                        {
-                            "name": "spring-test",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-test/6.2.15/spring-test-6.2.15-sources.jar"
                         }
                     ]
                 },
@@ -600,54 +1302,6 @@
                     ]
                 },
                 {
-                    "organization": "net.bytebuddy",
-                    "name": "byte-buddy-agent",
-                    "version": "1.17.8",
-                    "artifacts": [
-                        {
-                            "name": "byte-buddy-agent",
-                            "path": "/home/ceryar/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar"
-                        },
-                        {
-                            "name": "byte-buddy-agent",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.springframework.boot",
-                    "name": "spring-boot-starter-thymeleaf",
-                    "version": "3.5.10",
-                    "artifacts": [
-                        {
-                            "name": "spring-boot-starter-thymeleaf",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/3.5.10/spring-boot-starter-thymeleaf-3.5.10.jar"
-                        },
-                        {
-                            "name": "spring-boot-starter-thymeleaf",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/3.5.10/spring-boot-starter-thymeleaf-3.5.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.vaadin.external.google",
-                    "name": "android-json",
-                    "version": "0.0.20131108.vaadin1",
-                    "artifacts": [
-                        {
-                            "name": "android-json",
-                            "path": "/home/ceryar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"
-                        },
-                        {
-                            "name": "android-json",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.slf4j",
                     "name": "jul-to-slf4j",
                     "version": "2.0.17",
@@ -660,86 +1314,6 @@
                             "name": "jul-to-slf4j",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.slf4j",
-                    "name": "slf4j-api",
-                    "version": "2.0.17",
-                    "artifacts": [
-                        {
-                            "name": "slf4j-api",
-                            "path": "/home/ceryar/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
-                        },
-                        {
-                            "name": "slf4j-api",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.junit.jupiter",
-                    "name": "junit-jupiter-engine",
-                    "version": "5.12.2",
-                    "artifacts": [
-                        {
-                            "name": "junit-jupiter-engine",
-                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.2/junit-jupiter-engine-5.12.2.jar"
-                        },
-                        {
-                            "name": "junit-jupiter-engine",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.12.2/junit-jupiter-engine-5.12.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-core",
-                    "version": "2.19.4",
-                    "artifacts": [
-                        {
-                            "name": "jackson-core",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4.jar"
-                        },
-                        {
-                            "name": "jackson-core",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.4/jackson-core-2.19.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.springframework.boot",
-                    "name": "spring-boot-starter-json",
-                    "version": "3.5.10",
-                    "artifacts": [
-                        {
-                            "name": "spring-boot-starter-json",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.5.10/spring-boot-starter-json-3.5.10.jar"
-                        },
-                        {
-                            "name": "spring-boot-starter-json",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.5.10/spring-boot-starter-json-3.5.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-annotations",
-                    "version": "2.19.4",
-                    "artifacts": [
-                        {
-                            "name": "jackson-annotations",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4.jar"
-                        },
-                        {
-                            "name": "jackson-annotations",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.4/jackson-annotations-2.19.4-sources.jar"
                         }
                     ]
                 },
@@ -760,18 +1334,18 @@
                     ]
                 },
                 {
-                    "organization": "org.junit.jupiter",
-                    "name": "junit-jupiter",
-                    "version": "5.12.2",
+                    "organization": "org.hibernate.common",
+                    "name": "hibernate-commons-annotations",
+                    "version": "7.0.3.Final",
                     "artifacts": [
                         {
-                            "name": "junit-jupiter",
-                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.2/junit-jupiter-5.12.2.jar"
+                            "name": "hibernate-commons-annotations",
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.jar"
                         },
                         {
-                            "name": "junit-jupiter",
+                            "name": "hibernate-commons-annotations",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/junit/jupiter/junit-jupiter/5.12.2/junit-jupiter-5.12.2-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final-sources.jar"
                         }
                     ]
                 },
@@ -792,50 +1366,18 @@
                     ]
                 },
                 {
-                    "organization": "org.apache.tomcat.embed",
-                    "name": "tomcat-embed-websocket",
-                    "version": "10.1.50",
+                    "organization": "com.sun.istack",
+                    "name": "istack-commons-runtime",
+                    "version": "4.1.2",
                     "artifacts": [
                         {
-                            "name": "tomcat-embed-websocket",
-                            "path": "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50.jar"
+                            "name": "istack-commons-runtime",
+                            "path": "/home/ceryar/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar"
                         },
                         {
-                            "name": "tomcat-embed-websocket",
+                            "name": "istack-commons-runtime",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.50/tomcat-embed-websocket-10.1.50-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.unbescape",
-                    "name": "unbescape",
-                    "version": "1.1.6.RELEASE",
-                    "artifacts": [
-                        {
-                            "name": "unbescape",
-                            "path": "/home/ceryar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar"
-                        },
-                        {
-                            "name": "unbescape",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "nz.net.ultraq.thymeleaf",
-                    "name": "thymeleaf-layout-dialect",
-                    "version": "3.4.0",
-                    "artifacts": [
-                        {
-                            "name": "thymeleaf-layout-dialect",
-                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.4.0/thymeleaf-layout-dialect-3.4.0.jar"
-                        },
-                        {
-                            "name": "thymeleaf-layout-dialect",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/3.4.0/thymeleaf-layout-dialect-3.4.0-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2-sources.jar"
                         }
                     ]
                 },
@@ -872,34 +1414,18 @@
                     ]
                 },
                 {
-                    "organization": "org.mockito",
-                    "name": "mockito-core",
-                    "version": "5.17.0",
+                    "organization": "org.glassfish.jaxb",
+                    "name": "jaxb-core",
+                    "version": "4.0.6",
                     "artifacts": [
                         {
-                            "name": "mockito-core",
-                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-core/5.17.0/mockito-core-5.17.0.jar"
+                            "name": "jaxb-core",
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar"
                         },
                         {
-                            "name": "mockito-core",
+                            "name": "jaxb-core",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/mockito/mockito-core/5.17.0/mockito-core-5.17.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.springframework.boot",
-                    "name": "spring-boot-autoconfigure",
-                    "version": "3.5.10",
-                    "artifacts": [
-                        {
-                            "name": "spring-boot-autoconfigure",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10.jar"
-                        },
-                        {
-                            "name": "spring-boot-autoconfigure",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.5.10/spring-boot-autoconfigure-3.5.10-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6-sources.jar"
                         }
                     ]
                 },
@@ -916,22 +1442,6 @@
                             "name": "jackson-datatype-jsr310",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.4/jackson-datatype-jsr310-2.19.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.junit.platform",
-                    "name": "junit-platform-engine",
-                    "version": "1.12.2",
-                    "artifacts": [
-                        {
-                            "name": "junit-platform-engine",
-                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar"
-                        },
-                        {
-                            "name": "junit-platform-engine",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2-sources.jar"
                         }
                     ]
                 },
@@ -984,18 +1494,18 @@
                     ]
                 },
                 {
-                    "organization": "ch.qos.logback",
-                    "name": "logback-core",
-                    "version": "1.5.25",
+                    "organization": "org.springframework",
+                    "name": "spring-aspects",
+                    "version": "6.2.15",
                     "artifacts": [
                         {
-                            "name": "logback-core",
-                            "path": "/home/ceryar/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25.jar"
+                            "name": "spring-aspects",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-aspects/6.2.15/spring-aspects-6.2.15.jar"
                         },
                         {
-                            "name": "logback-core",
+                            "name": "spring-aspects",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/ch/qos/logback/logback-core/1.5.25/logback-core-1.5.25-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-aspects/6.2.15/spring-aspects-6.2.15-sources.jar"
                         }
                     ]
                 },
@@ -1012,38 +1522,6 @@
                             "name": "attoparser",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.springframework.boot",
-                    "name": "spring-boot-starter",
-                    "version": "3.5.10",
-                    "artifacts": [
-                        {
-                            "name": "spring-boot-starter",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter/3.5.10/spring-boot-starter-3.5.10.jar"
-                        },
-                        {
-                            "name": "spring-boot-starter",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter/3.5.10/spring-boot-starter-3.5.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "net.minidev",
-                    "name": "accessors-smart",
-                    "version": "2.5.2",
-                    "artifacts": [
-                        {
-                            "name": "accessors-smart",
-                            "path": "/home/ceryar/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar"
-                        },
-                        {
-                            "name": "accessors-smart",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2-sources.jar"
                         }
                     ]
                 },
@@ -1096,54 +1574,6 @@
                     ]
                 },
                 {
-                    "organization": "org.ow2.asm",
-                    "name": "asm",
-                    "version": "9.7.1",
-                    "artifacts": [
-                        {
-                            "name": "asm",
-                            "path": "/home/ceryar/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
-                        },
-                        {
-                            "name": "asm",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.awaitility",
-                    "name": "awaitility",
-                    "version": "4.2.2",
-                    "artifacts": [
-                        {
-                            "name": "awaitility",
-                            "path": "/home/ceryar/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar"
-                        },
-                        {
-                            "name": "awaitility",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.core",
-                    "name": "jackson-databind",
-                    "version": "2.19.4",
-                    "artifacts": [
-                        {
-                            "name": "jackson-databind",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.jar"
-                        },
-                        {
-                            "name": "jackson-databind",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.apache.logging.log4j",
                     "name": "log4j-api",
                     "version": "2.24.3",
@@ -1176,6 +1606,22 @@
                     ]
                 },
                 {
+                    "organization": "jakarta.persistence",
+                    "name": "jakarta.persistence-api",
+                    "version": "3.1.0",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.persistence-api",
+                            "path": "/home/ceryar/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "jakarta.persistence-api",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "ch.qos.logback",
                     "name": "logback-classic",
                     "version": "1.5.25",
@@ -1192,22 +1638,6 @@
                     ]
                 },
                 {
-                    "organization": "org.springframework",
-                    "name": "spring-webmvc",
-                    "version": "6.2.15",
-                    "artifacts": [
-                        {
-                            "name": "spring-webmvc",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-webmvc/6.2.15/spring-webmvc-6.2.15.jar"
-                        },
-                        {
-                            "name": "spring-webmvc",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-webmvc/6.2.15/spring-webmvc-6.2.15-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.springframework.boot",
                     "name": "spring-boot-starter-web",
                     "version": "3.5.10",
@@ -1220,22 +1650,6 @@
                             "name": "spring-boot-starter-web",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.5.10/spring-boot-starter-web-3.5.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.javassist",
-                    "name": "javassist",
-                    "version": "3.29.0-GA",
-                    "artifacts": [
-                        {
-                            "name": "javassist",
-                            "path": "/home/ceryar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar"
-                        },
-                        {
-                            "name": "javassist",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA-sources.jar"
                         }
                     ]
                 },
@@ -1272,50 +1686,34 @@
                     ]
                 },
                 {
-                    "organization": "org.springframework",
-                    "name": "spring-context",
-                    "version": "6.2.15",
+                    "organization": "org.aspectj",
+                    "name": "aspectjweaver",
+                    "version": "1.9.25.1",
                     "artifacts": [
                         {
-                            "name": "spring-context",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15.jar"
+                            "name": "aspectjweaver",
+                            "path": "/home/ceryar/.m2/repository/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.jar"
                         },
                         {
-                            "name": "spring-context",
+                            "name": "aspectjweaver",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/org/springframework/spring-context/6.2.15/spring-context-6.2.15-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "nz.net.ultraq.groovy",
-                    "name": "groovy-extensions",
-                    "version": "2.3.3",
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-data-jpa",
+                    "version": "3.5.10",
                     "artifacts": [
                         {
-                            "name": "groovy-extensions",
-                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/groovy/groovy-extensions/2.3.3/groovy-extensions-2.3.3.jar"
+                            "name": "spring-boot-starter-data-jpa",
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.5.10/spring-boot-starter-data-jpa-3.5.10.jar"
                         },
                         {
-                            "name": "groovy-extensions",
+                            "name": "spring-boot-starter-data-jpa",
                             "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/nz/net/ultraq/groovy/groovy-extensions/2.3.3/groovy-extensions-2.3.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "jakarta.validation",
-                    "name": "jakarta.validation-api",
-                    "version": "3.0.2",
-                    "artifacts": [
-                        {
-                            "name": "jakarta.validation-api",
-                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
-                        },
-                        {
-                            "name": "jakarta.validation-api",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2-sources.jar"
+                            "path": "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.5.10/spring-boot-starter-data-jpa-3.5.10-sources.jar"
                         }
                     ]
                 },
@@ -1352,22 +1750,6 @@
                     ]
                 },
                 {
-                    "organization": "net.minidev",
-                    "name": "json-smart",
-                    "version": "2.5.2",
-                    "artifacts": [
-                        {
-                            "name": "json-smart",
-                            "path": "/home/ceryar/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar"
-                        },
-                        {
-                            "name": "json-smart",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.springframework.boot",
                     "name": "spring-boot-devtools",
                     "version": "3.5.10",
@@ -1396,22 +1778,6 @@
                             "name": "jakarta.activation-api",
                             "classifier": "sources",
                             "path": "/home/ceryar/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.fasterxml.jackson.module",
-                    "name": "jackson-module-parameter-names",
-                    "version": "2.19.4",
-                    "artifacts": [
-                        {
-                            "name": "jackson-module-parameter-names",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4.jar"
-                        },
-                        {
-                            "name": "jackson-module-parameter-names",
-                            "classifier": "sources",
-                            "path": "/home/ceryar/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.19.4/jackson-module-parameter-names-2.19.4-sources.jar"
                         }
                     ]
                 },
