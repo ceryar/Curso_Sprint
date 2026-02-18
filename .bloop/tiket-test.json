@@ -34,6 +34,7 @@
             "/home/ceryar/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar",
             "/home/ceryar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar",
             "/home/ceryar/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+            "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.5.10/spring-boot-starter-web-3.5.10.jar",
             "/home/ceryar/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.5.10/spring-boot-starter-json-3.5.10.jar",
             "/home/ceryar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.4/jackson-databind-2.19.4.jar",
@@ -177,6 +178,22 @@
         },
         "resolution": {
             "modules": [
+                {
+                    "organization": "org.projectlombok",
+                    "name": "lombok",
+                    "version": "1.18.42",
+                    "artifacts": [
+                        {
+                            "name": "lombok",
+                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar"
+                        },
+                        {
+                            "name": "lombok",
+                            "classifier": "sources",
+                            "path": "/home/ceryar/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42-sources.jar"
+                        }
+                    ]
+                },
                 {
                     "organization": "net.bytebuddy",
                     "name": "byte-buddy",
