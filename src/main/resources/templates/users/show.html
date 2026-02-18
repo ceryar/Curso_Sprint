@@ -7,19 +7,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Detalle de Usuarios</title>
 </head>
 <body>
-    
-    <!-- <h1 th:text="'Hola Mundo1 ' + ${name}"></h1> -->
 
     <main layout:fragment="content"> <!-- publica contenido desde el template -->
-        
-
         <h1>
-            Bienvenidos a Univalle! <!-- Otra forma -->
-        </br>
+            Detalle de Usuario
         </h1>
-    </main>       
+
+        <p>
+            Usuario N [[${usersId}]]
+        </p>
+    </main>
 </body>
 </html>
+    
