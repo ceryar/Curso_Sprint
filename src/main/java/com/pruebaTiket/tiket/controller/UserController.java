@@ -2,6 +2,7 @@ package com.pruebaTiket.tiket.controller;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -16,6 +17,7 @@ import org.springframework.validation.BindingResult;
 import com.pruebaTiket.tiket.dto.UserDto;
 import com.pruebaTiket.tiket.model.User;
 import com.pruebaTiket.tiket.repository.UserRepository;
+import com.pruebaTiket.tiket.service.UserService;
 
 import jakarta.validation.Valid;
 
@@ -23,25 +25,21 @@ import jakarta.validation.Valid;
 
 
 @Controller
-
 public class UserController {
     /* se debe crear una carpeta en Template con el nombre de users y crear las vistas
      index.html y show.html
     */
-   private final UserRepository userRepository;  // llamar al repositorio del usuario "Interfaz"
+    @Autowired
+     private UserService userService; // inyectamos la clase userService
 
-   public UserController(UserRepository userRepository){ //inyectamos repositorio
-    this.userRepository = userRepository;
-   }
 
 
     @GetMapping("/users")
     public String index(
         Model model //para pasarle informacion a a vista utiliza el molelo
-
     ){
         
-        List<User>  users = userRepository.findAll();// consulta todos usuarios de la base de datos con el repositorio
+        List<User>  users = userService.findAList();// consulta todos usuarios de la base de datos con servicios
         model.addAttribute("users", users); // paso de informacion a la vista
         return "users/index"; // especifica la vista amostar
     }
@@ -52,9 +50,9 @@ public class UserController {
         @PathVariable Long id // para poder recibir la variable id
         )
         {
-       User user = userRepository.findById(id)
-        .orElseThrow(() -> new IllegalArgumentException("Usuario no disponible")); //consultar el regmistro por id
-         model.addAttribute("user", user); // pasa el objeto a la vista
+    
+       User user = userService.findById(id); // llamado al servicio para realzarla busqueda por ide
+        model.addAttribute("user", user); // pasa el objeto a la vista
         return "users/show";
 
     }
@@ -77,18 +75,8 @@ public class UserController {
             model.addAttribute("userDto", userDto); // sepasa el userDto que existe
             return "users/create";
         }
-        //Crear usuaario
-        /*
-        User user = new User();
-        user.setName(userDto.getName());
-        user.equals(userDto.getEmail());
-         */
-        //crear objeto en memoria
-        User user = User.builder()
-        .name(userDto.getName())
-        .email(userDto.getEmail())
-        .build();
-        userRepository.save(user); // almacenamiento en la base de datos con el objeto user
+       
+       userService.save(userDto); //guardar usuaario utilizando el servicio
         
          return "redirect:/users";// redireciona a la ruta /create
     }
@@ -98,9 +86,7 @@ public class UserController {
         Model model,
         @PathVariable Long id // para poder recibir la variable id
         ){
-            User user = userRepository.findById(id)
-            .orElseThrow(() -> new IllegalArgumentException("Usuario no disponible")); //consultar el regmistro por id
-
+            User user = userService.findById(id);
             model.addAttribute("id",id);//enviamos el id
             //utiliza contructor coon     
             model.addAttribute("userDto", new UserDto(//pasar  informacion a la vista name i email 
@@ -122,20 +108,14 @@ public class UserController {
             model.addAttribute("userDto", userDto);
             return "user/edit";
         }
-        User user = userRepository.findById(id)
-             .orElseThrow(() -> new IllegalArgumentException(""));
-        
-        user.setName(userDto.getName()); // se cambian los datos del usua rio
-        user.setEmail(userDto.getEmail());
-
-        userRepository.save(user); // se aplican los datos
+         userService.update(id, userDto); //actualizacion utilizando servicio
         return "redirect:/users"; // se redireciona
     }
     @DeleteMapping("/users/{id}")// peticiones de tipo Delete para eliminar usuario 
     public String delete(
         @PathVariable Long id
     ){
-        userRepository.deleteById(id);//elimina el usuario
+       userService.deleteById(id);//elimina el usuario
         return "redirect:/users"; // se redireciona
     }
 }
