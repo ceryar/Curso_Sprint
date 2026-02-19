@@ -38,19 +38,8 @@ public class UserController {
         Model model //para pasarle informacion a a vista utiliza el molelo
 
     ){
-        User user1 = new User(//listado de usuarios
-            1L,
-            "Cesar castro",
-             "cesar@gmail.com");
-        User user2 = new User(
-            2L,
-            "Antonio Hurtado",
-             "antonio@gmail.com");
-        User user3 = new User(
-            3L,
-            "Felipe Lopez",
-             "felipe@gmail.com");
-        List<User>  users = List.of(user1, user2, user3);
+        
+        List<User>  users = userRepository.findAll();// consulta todos usuarios de la base de datos con el repositorio
         model.addAttribute("users", users); // paso de informacion a la vista
         return "users/index"; // especifica la vista amostar
     }
