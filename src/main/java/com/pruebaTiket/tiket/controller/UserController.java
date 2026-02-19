@@ -65,7 +65,6 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    
     public String store(//retorna un objeto de UserDto con los atrivutos y metos definidos
        @Valid @ModelAttribute UserDto userDto, //captura los elementos de userDto y validacion
        BindingResult result,// objeto contine el resultado de la validacion.
@@ -89,7 +88,47 @@ public class UserController {
         .build();
         userRepository.save(user); // almacenamiento en la base de datos con el objeto user
         
-       return "redirect:/users";// redireciona a la ruta /create
+         return "redirect:/users";// redireciona a la ruta /create
     }
+
+    @GetMapping("/users/{id}/edit")//desde index.html se envian los datos para editar
+    public String edit(
+        Model model,
+        @PathVariable Long id // para poder recibir la variable id
+        ){
+            User user = userRepository.findById(id)
+            .orElseThrow(() -> new IllegalArgumentException("Usuario no disponible")); //consultar el regmistro por id
+
+            model.addAttribute("id",id);//enviamos el id
+            //utiliza contructor coon     
+            model.addAttribute("userDto", new UserDto(//pasar  informacion a la vista name i email 
+                user.getName(),
+                user.getEmail()
+            ));
+            return "users/edit"; //pasa la ruta update @PostMapping("/users/{id}")
+        }
+
+    @PostMapping("/users/{id}")
+    public String update(//metodo para actualizar
+        //recibe el id del usuario  y inyectamos el modelo para pasarle datos a la vista 
+        @PathVariable Long id,
+        @Valid @ModelAttribute UserDto userDto, // se pasan los datos escritos por el usuario
+        BindingResult result,
+        Model model
+    ){
+        if(result.hasErrors()){
+            model.addAttribute("userDto", userDto);
+            return "user/edit";
+        }
+        User user = userRepository.findById(id)
+             .orElseThrow(() -> new IllegalArgumentException(""));
+        
+        user.setName(userDto.getName()); // se cambian los datos del usua rio
+        user.setEmail(userDto.getEmail());
+
+        userRepository.save(user); // se aplican los datos
+        return "redirect:/users"; // se redireciona
+    }
+     
 }
 

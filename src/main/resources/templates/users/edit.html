@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+      layout:decorate="~{layouts/app}">
+      <!-- incluir platilla-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuario</title>
+</head>
+<body>
+
+    <main layout:fragment="content"> <!-- publica contenido desde el template -->
+
+        
+        <form class="card" 
+        th:action="@{/users/{id}(id=${id})}" method="post" th:object="${userDto}">  <!-- envio de datos almodelo User para editar-->
+            <!-- contexto de userDTO -->
+            <div class="alert alert-warning" role="alert" th:if="${#fields.hasErrors()}" >
+                <p>
+                    Error en la validacion
+                </p>
+                <ul>
+                    <li th:each="err : ${#fields.errors('*')}" th:text="${err}"></li>
+                     <!-- imprime los errores en la variable err -->
+                </ul>
+            
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">
+                        Nombre
+                    </label>
+                    <input type="text" th:field="*{name}" class="form-control">
+                    <div th:if="${#fields.errors('name')}" th:errors="*{name}" class="text-danger"></div>
+
+                </div>
+                 <div class="mb-3">
+                    <label class="form-label">
+                        Email
+                    </label>
+                    <input type="email" th:field="*{email}" class="form-control">
+                    <div th:if="${#fields.errors('email')}" th:errors="*{email}" class="text-danger"></div>
+
+                </div>
+                <button class="btn btn-primary">
+                    Actualizar usuario
+                </button>
+            </div>
+        </form>
+        
+    </main>
+</body>
+</html>
+    
