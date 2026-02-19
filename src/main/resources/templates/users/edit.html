@@ -16,7 +16,8 @@
         
         <form class="card" 
         th:action="@{/users/{id}(id=${id})}" method="post" th:object="${userDto}">  <!-- envio de datos almodelo User para editar-->
-            <!-- contexto de userDTO -->
+            <input type="hidden" name="_method" value="put"> <!-- peticiones de tipo put envia a controlador user--> 
+        <!-- contexto de userDTO -->
             <div class="alert alert-warning" role="alert" th:if="${#fields.hasErrors()}" >
                 <p>
                     Error en la validacion

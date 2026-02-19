@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -108,7 +109,7 @@ public class UserController {
             return "users/edit"; //pasa la ruta update @PostMapping("/users/{id}")
         }
 
-    @PostMapping("/users/{id}")
+    @PutMapping("/users/{id}")// peticiones de tipo put 
     public String update(//metodo para actualizar
         //recibe el id del usuario  y inyectamos el modelo para pasarle datos a la vista 
         @PathVariable Long id,
