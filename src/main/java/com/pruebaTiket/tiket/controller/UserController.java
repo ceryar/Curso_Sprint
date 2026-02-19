@@ -13,6 +13,7 @@ import org.springframework.validation.BindingResult;
 
 import com.pruebaTiket.tiket.dto.UserDto;
 import com.pruebaTiket.tiket.model.User;
+import com.pruebaTiket.tiket.repository.UserRepository;
 
 import jakarta.validation.Valid;
 
@@ -25,6 +26,12 @@ public class UserController {
     /* se debe crear una carpeta en Template con el nombre de users y crear las vistas
      index.html y show.html
     */
+   private final UserRepository userRepository;  // llamar al repositorio del usuario "Interfaz"
+
+   public UserController(UserRepository userRepository){ //inyectamos repositorio
+    this.userRepository = userRepository;
+   }
+
 
     @GetMapping("/users")
     public String index(
@@ -78,7 +85,19 @@ public class UserController {
             model.addAttribute("userDto", userDto); // sepasa el userDto que existe
             return "users/create";
         }
-
+        //Crear usuaario
+        /*
+        User user = new User();
+        user.setName(userDto.getName());
+        user.equals(userDto.getEmail());
+         */
+        //crear objeto en memoria
+        User user = User.builder()
+        .name(userDto.getName())
+        .email(userDto.getEmail())
+        .build();
+        userRepository.save(user); // almacenamiento en la base de datos con el objeto user
+        
        return "redirect:/users";// redireciona a la ruta /create
     }
 }
