@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -130,6 +131,12 @@ public class UserController {
         userRepository.save(user); // se aplican los datos
         return "redirect:/users"; // se redireciona
     }
-     
+    @DeleteMapping("/users/{id}")// peticiones de tipo Delete para eliminar usuario 
+    public String delete(
+        @PathVariable Long id
+    ){
+        userRepository.deleteById(id);//elimina el usuario
+        return "redirect:/users"; // se redireciona
+    }
 }
 

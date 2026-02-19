@@ -26,6 +26,15 @@
                     <p>
                         Email : [[*{email}]]
                     </p>
+
+                    <form // para eliminar se debe utilizar un formulario con el metodo delete
+                    th:action="@{/users/{id}(id=${id})}" 
+                    method="post" >
+                    <input type="hidden" name="_method" value="delete"> <!-- peticiones de tipo put envia a controlador user--> 
+                    <button class="btn btn-danger">Eliminar</button>
+                </form>
+                
+
         </div>
     </main>
 </body>
