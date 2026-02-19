@@ -48,9 +48,11 @@ public class UserController {
     public String show(
         Model model,
         @PathVariable Long id // para poder recibir la variable id
-        
-    ){
-        model.addAttribute("usersId", id); //  paso de variable a a la vista
+        )
+        {
+       User user = userRepository.findById(id)
+        .orElseThrow(() -> new IllegalArgumentException("Usuario no disponible")); //consultar el regmistro por id
+         model.addAttribute("user", user); // pasa el objeto a la vista
         return "users/show";
 
     }

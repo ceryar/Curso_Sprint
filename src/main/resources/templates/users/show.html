@@ -12,13 +12,21 @@
 <body>
 
     <main layout:fragment="content"> <!-- publica contenido desde el template -->
-        <h1>
-            Detalle de Usuario
-        </h1>
+        <div th:object="${user}">
+            <h1>
+                Detalle de Usuario
+            </h1>
+                    <p>
+                        Usuario n [[*{id}]] : <!-- se crea la bariable loop  para ver el recorrido de la lista-->
+                    </p>
 
-        <p>
-            Usuario N [[${usersId}]]
-        </p>
+                    <p>
+                        Nombre: [[*{name}]] <!-- dato de objeto -->
+                    </p>
+                    <p>
+                        Email : [[*{email}]]
+                    </p>
+        </div>
     </main>
 </body>
 </html>
